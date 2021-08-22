@@ -1,16 +1,16 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
+import Button from '@material-ui/core/Button';
+import Card2 from '../Components/Card2';
+
 
 export default function Home() {
   return (
     <React.Fragment>
         <Container fixed>
-            <p>
-                Welcome to your web application. Make something beautiful!
-            </p>
-            <p>
-                To get started, edit <code>src/App.js</code>, save, and reload this page.
-            </p>
+            <p> This is a test case</p>
+            <Button />
+            <Card2 />
         </Container>
     </React.Fragment>
   );

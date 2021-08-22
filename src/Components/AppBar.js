@@ -16,7 +16,12 @@ export default function ButtonAppBar() {
                     <img src={logo} className="App-logo" alt="logo" />
                 </IconButton>
             </Link>
-            
+            <Link to={process.env.PUBLIC_URL + '/gallery'}>
+                <IconButton>
+                    <img src={logo} className="App-logo" alt="logo" />
+                </IconButton>
+            </Link>
+        
           Title Goes Here
             
         </Toolbar>
