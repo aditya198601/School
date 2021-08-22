@@ -9,8 +9,7 @@ export default function Home() {
     <React.Fragment>
         <Container fixed>
             <p> This is a test case</p>
-            <Button />
-            <Card2 />
+            
         </Container>
     </React.Fragment>
   );
